@@ -1,6 +1,6 @@
 FROM node:lts-alpine3.15
 
-EXPOSE ${PORT}
+EXPOSE 4000
 
 WORKDIR /home/app/
 
