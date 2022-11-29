@@ -16,4 +16,4 @@ COPY package*.json tsconfig.json tsconfig.build.json ./
 
 RUN npm ci
 RUN npm run build
-CMD node dist/main
+ENTRYPOINT ["node", "dist/main"]
