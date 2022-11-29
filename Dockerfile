@@ -16,4 +16,4 @@ COPY package*.json tsconfig.json tsconfig.build.json ./
 
 RUN npm ci
 RUN npm run build
-RUN node dist/main
+CMD node dist/main
